@@ -1,0 +1,84 @@
+{
+    "INICIAL": "S",
+    "VARIABLES": [
+        "S",
+        "VP",
+        "PP",
+        "NP",
+        "V",
+        "P",
+        "N",
+        "Det"
+    ],
+    "TERMINALES": [
+        "cooks",
+        "drinks",
+        "eats",
+        "cuts",
+        "he",
+        "she",
+        "in",
+        "with",
+        "cat",
+        "dog",
+        "beer",
+        "cake",
+        "juice",
+        "meat",
+        "soup",
+        "fork",
+        "knife",
+        "oven",
+        "spoon",
+        "a",
+        "the"
+    ],
+    "REGLAS": {
+        "S": [
+            "NP VP"
+        ],
+        "VP": [
+            "VP PP",
+            "cuts",
+            "cooks",
+            "eats",
+            "drinks",
+            "V NP"
+        ],
+        "PP": [
+            "P NP"
+        ],
+        "NP": [
+            "Det N",
+            "he",
+            "she"
+        ],
+        "V": [
+            "cuts",
+            "eats",
+            "cooks",
+            "drinks"
+        ],
+        "P": [
+            "with",
+            "in"
+        ],
+        "N": [
+            "beer",
+            "soup",
+            "cat",
+            "meat",
+            "cake",
+            "spoon",
+            "dog",
+            "juice",
+            "oven",
+            "fork",
+            "knife"
+        ],
+        "Det": [
+            "a",
+            "the"
+        ]
+    }
+}
