@@ -1,5 +1,8 @@
 # CYKToolset
 
+## Presentacion
+Video de presentacion: https://youtu.be/KPL7qmAw_y0
+
 ## Resumen
 
 Este proyecto está diseñado para transformar una Gramática Libre de Contexto en Forma Normal de Chomsky y luego utilizar el algoritmo CYK para analizar una oración dada. Consiste en tres componentes principales:
